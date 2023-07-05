@@ -11,7 +11,6 @@ def projects():
                 "url":"https://github.com/ChristianC93/anime_List",
                 "description":"An application that allows users to keep track of the anime they have watched, rate them, and write reviews. Built using a Rails API backened and a React Frontend"
             },
-
             {
                 "name":"Calorie Tracker",
                 "url":"https://github.com/ChristianC93/calorie-tracker",

@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes} from "react-icons/fa";
-import "../styles/NavBarStyle.css";
 import React, { useState } from 'react';
 
 function NavBar() {
-
     const [display, setDisplay] = useState(false);
     const [color, setColor] = useState(false);
 
