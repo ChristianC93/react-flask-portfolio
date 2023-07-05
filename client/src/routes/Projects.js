@@ -10,11 +10,13 @@ function Projects({ projects }) {
     <div>
         <NavBar />
         <BackGround2 />
-        {projects.map((project, index) => {
+        {(typeof projects === "undefined") ? (
+            <p>Loading...</p>
+        ) : (projects.map((project, index) => {
             return (
                 <ProjectCard key={ index } project={ project } />
             )
-        })}
+        }))}
         <Footer />
     </div>
   )
