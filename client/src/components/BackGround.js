@@ -1,6 +1,7 @@
 import React from 'react'
 import texture from '../assets/texture.jpg'
 import { Link } from 'react-router-dom';
+import '../styles/BackGroundStyles.css'
 
 function BackGround() {
   return (
