@@ -4,23 +4,23 @@ import Projects from './routes/Projects';
 import Home from './routes/Home';
 
 function App() {
-  const [projects, setProjects] = useState([]);
+  const [data, setData] = useState([]);
 
   useEffect(() => {
     fetch('/projects')
     .then(resp => resp.json())
     .then(data => {
-      setProjects(data)
+      setData(data)
     })
   }, [])
 
-  console.log(projects)
+  console.log(data)
 
   return (
     <div>
       <Routes>
         <Route path='/' element={ <Home /> } />
-        <Route path='/projects' element={ <Projects /> }/>
+        <Route path='/projects' element={ <Projects projects={ data.projects } /> }/>
       </Routes>
     </div>
   )

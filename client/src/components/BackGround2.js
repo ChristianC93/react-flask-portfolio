@@ -6,8 +6,8 @@ function BackGround2() {
   return (
     <div className='background-2'>
         <div className='heading'>
-          <h1>Heading</h1>
-          <p>Text</p>  
+          <h1>Projects</h1>
+          <p>Some of my recent projects</p>  
         </div>
     </div>
   )
