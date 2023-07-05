@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes} from "react-icons/fa";
 import React, { useState } from 'react';
+import '../styles/NavBarStyles.css';
 
 function NavBar() {
     const [display, setDisplay] = useState(false);
