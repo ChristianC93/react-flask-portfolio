@@ -9,7 +9,7 @@ function Projects({ projects }) {
   return (
     <div>
         <NavBar />
-        <BackGround2 />
+        <BackGround2 heading="Projects" text="Some of my recent projects" />
         {(typeof projects === "undefined") ? (
             <p>Loading...</p>
         ) : (projects.map((project, index) => {

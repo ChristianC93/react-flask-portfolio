@@ -2,12 +2,12 @@ import React from 'react'
 import '../styles/BackGround2Styles.css';
 
 
-function BackGround2() {
+function BackGround2({ heading, text }) {
   return (
     <div className='background-2'>
         <div className='heading'>
-          <h1>Projects</h1>
-          <p>Some of my recent projects</p>  
+          <h1>{ heading }</h1>
+          <p>{ text }</p>  
         </div>
     </div>
   )
