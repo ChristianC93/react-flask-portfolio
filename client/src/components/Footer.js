@@ -17,7 +17,7 @@ function Footer() {
             </div>
             <div className='right'>
                 <h4>About Me</h4>
-                <p>An aspiring Full Stack Software Developer</p>
+                <p>A software developer, lifelong learner, new yorker, and big fan of FromSoftware.</p>
                 <div className='socials'>
                     <GrGithub size={ 30 } style={{ color: 'white', marginRight: "1rem" }} />
                     <FaLinkedin size={ 30 } style={{ color: 'white', marginRight: "1rem" }} />
