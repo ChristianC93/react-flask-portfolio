@@ -21,7 +21,7 @@ function Footer() {
                 <p>A software developer, lifelong learner, new yorker, and big fan of FromSoftware.</p>
                 <div className='socials'>
                     <Link to='https://github.com/ChristianC93'><GrGithub size={ 30 } style={{ color: 'white', marginRight: "1rem" }} /></Link> 
-                    <FaLinkedin size={ 30 } style={{ color: 'white', marginRight: "1rem" }} />
+                    <Link to='https://www.linkedin.com/in/christian-castillo-22ab621a8/'><FaLinkedin size={ 30 } style={{ color: 'white', marginRight: "1rem" }} /></Link>
                 </div>
             </div>
         </div>
