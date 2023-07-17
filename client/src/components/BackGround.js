@@ -10,7 +10,8 @@ function BackGround() {
             <img className='intro-img' src={ picture } alt='intro-img'/>
         </div>
         <div className='content'>
-            <h1>Christian Castillo: Software Developer</h1>
+            <h1>Christian Castillo</h1>
+            <h1>Software Developer</h1>
             <div>
                 <Link to='/projects' className='btn'>Projects</Link>
                 <Link to='/about' className='btn btn-light'>About</Link>    

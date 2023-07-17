@@ -18,7 +18,7 @@ function Footer() {
             </div>
             <div className='right'>
                 <h4>About Me</h4>
-                <p>A software developer, lifelong learner, new yorker, and big fan of FromSoftware.</p>
+                <p>A Software Developer, lifelong learner, New Yorker, and big fan of FromSoftware.</p>
                 <div className='socials'>
                     <Link to='https://github.com/ChristianC93'><GrGithub size={ 30 } style={{ color: 'white', marginRight: "1rem" }} /></Link> 
                     <Link to='https://www.linkedin.com/in/christian-castillo-22ab621a8/'><FaLinkedin size={ 30 } style={{ color: 'white', marginRight: "1rem" }} /></Link>
